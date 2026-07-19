@@ -1,0 +1,191 @@
+book_id,title,author,genre,price,stock,published_on
+1,The White Tiger,Aravind Adiga,Fiction,360.19,75,2003-11-23
+2,The God Delusion,Richard Dawkins,Science,538.8,3,2001-04-27
+3,Swami and Friends,R.K. Narayan,Fiction,282.38,3,2007-05-04
+4,The Crusades,Thomas Asbridge,History,721.51,12,1989-07-02
+5,Wings of Fire,A.P.J. Abdul Kalam,Non-fiction,224.61,35,1978-01-17
+6,2 States,Chetan Bhagat,Fiction,211.71,8,1993-07-02
+7,The Last Mughal,William Dalrymple,History,636.95,12,1985-06-05
+8,Alexander the Great,Philip Freeman,History,461.26,2,1980-12-10
+9,Zero to One,Peter Thiel,Science,563.54,5,1989-11-17
+10,Malgudi Days,R.K. Narayan,Fiction,237.75,20,1965-04-13
+11,In the Woods,Tana French,Mystery,366.55,50,2018-07-24
+12,Untouchable,Mulk Raj Anand,Fiction,188.88,12,1984-12-25
+13,The Story of Civilisation Vol 1,Will Durant,History,839.5,5,1985-12-07
+14,Brave New World,Aldous Huxley,Fiction,319.03,50,2011-09-11
+15,The Rise and Fall of the Third Reich,William L. Shirer,History,842.04,35,2016-03-22
+16,The Alchemist,Paulo Coelho,Fiction,290.66,2,1998-09-02
+17,The Girl with the Dragon Tattoo,Stieg Larsson,Mystery,429.37,8,2018-10-01
+18,Angels and Demons,Dan Brown,Fiction,458.48,20,2008-12-26
+19,Train to Pakistan,Khushwant Singh,Fiction,262.98,8,1990-06-10
+20,The Diary of a Young Girl,Anne Frank,Non-fiction,325.96,2,1977-03-10
+21,Churchill,Roy Jenkins,History,679.39,12,1998-12-04
+22,Start with Why,Simon Sinek,Self-Help,361.11,12,2019-03-24
+23,The One Minute Manager,Kenneth Blanchard,Self-Help,280.62,12,2009-05-16
+24,The Oath of the Vayuputras,Amish Tripathi,Fiction,306.9,20,2004-03-31
+25,Permanent Record,Edward Snowden,Non-fiction,604.34,75,2021-07-21
+26,Long Walk to Freedom,Nelson Mandela,Non-fiction,698.37,5,1998-03-25
+27,The Richest Man in Babylon,George S. Clason,Self-Help,198.14,5,1995-12-24
+28,Revolution 2020,Chetan Bhagat,Fiction,223.03,3,1960-03-11
+29,Midnight's Children,Salman Rushdie,Fiction,628.93,5,2015-03-04
+30,The 4-Hour Workweek,Tim Ferriss,Self-Help,541.68,5,2011-03-31
+31,Steve Jobs,Walter Isaacson,Non-fiction,851.76,100,2004-12-05
+32,Homo Deus,Yuval Noah Harari,Science,628.09,12,1988-07-08
+33,Ram - Scion of Ikshvaku,Amish Tripathi,Fiction,327.72,75,2005-12-24
+34,A Brief History of Time,Stephen Hawking,Science,534.29,2,1994-01-25
+35,Leonardo da Vinci,Walter Isaacson,Non-fiction,692.85,20,2002-07-22
+36,Animal Farm,George Orwell,Fiction,224.04,12,1965-02-06
+37,The Grand Design,Stephen Hawking,Science,624.89,2,1988-05-02
+38,Elon Musk,Walter Isaacson,Non-fiction,739.1,2,2018-08-29
+39,The Sixth Extinction,Elizabeth Kolbert,Science,505.39,3,2019-12-08
+40,The 7 Habits of Highly Effective People,Stephen Covey,Self-Help,458.39,20,1981-10-13
+41,Becoming,Michelle Obama,Non-fiction,724.03,12,2006-03-07
+42,So Good They Can't Ignore You,Cal Newport,Self-Help,406.81,8,1991-09-12
+43,Predictably Irrational,Dan Ariely,Science,454.73,20,1990-09-15
+44,Unlimited Power,Tony Robbins,Self-Help,463.91,3,2008-12-14
+45,How to Win Friends and Influence People,Dale Carnegie,Self-Help,281.06,8,1966-07-05
+46,The Infinite Game,Simon Sinek,Self-Help,382.9,20,2005-04-03
+47,The Tipping Point,Malcolm Gladwell,Science,492.85,2,1989-07-24
+48,Open,Andre Agassi,Non-fiction,499.88,3,1995-08-28
+49,The God of Small Things,Arundhati Roy,Fiction,444.59,50,1996-07-29
+50,The Age of Extremes,Eric Hobsbawm,History,607.14,12,2004-05-14
+51,Coolie,Mulk Raj Anand,Fiction,242.98,20,2007-06-15
+52,The Power of Habit,Charles Duhigg,Self-Help,382.7,35,1993-06-06
+53,Gandhi Before India,Ramachandra Guha,Non-fiction,733.06,2,2019-05-23
+54,The Origins of Totalitarianism,Hannah Arendt,History,622.31,2,1984-10-19
+55,Death on the Nile,Agatha Christie,Mystery,320.74,3,1985-04-11
+56,The Power of Now,Eckhart Tolle,Self-Help,359.98,20,1989-02-17
+57,India After Gandhi,Ramachandra Guha,Non-fiction,738.32,35,2002-09-02
+58,Half Girlfriend,Chetan Bhagat,Fiction,198.32,50,1964-07-22
+59,The Murder of Roger Ackroyd,Agatha Christie,Mystery,253.65,12,1984-10-27
+60,Inferno,Dan Brown,Fiction,387.59,8,1985-11-13
+61,I Am Malala,Malala Yousafzai,Non-fiction,415.41,5,2013-04-01
+62,The Glass Palace,Amitav Ghosh,Fiction,441.17,20,2005-02-27
+63,The Argumentative Indian,Amartya Sen,Non-fiction,468.24,2,2019-08-12
+64,Nirmala,Munshi Premchand,Fiction,263.27,3,1963-03-26
+65,The Guide,R.K. Narayan,Fiction,285.0,20,1973-04-14
+66,Dark Places,Gillian Flynn,Mystery,371.02,1,1996-05-10
+67,The Subtle Art of Not Giving a F*ck,Mark Manson,Self-Help,446.76,35,2018-08-10
+68,The Gene,Siddhartha Mukherjee,Science,602.52,8,2010-08-05
+69,Sapiens,Yuval Noah Harari,Science,553.99,2,2014-12-29
+70,Freakonomics,Steven Levitt & Stephen Dubner,Science,457.07,50,2023-09-07
+71,Poverty and Famines,Amartya Sen,Non-fiction,672.49,3,2021-09-17
+72,Rich Dad Poor Dad,Robert Kiyosaki,Self-Help,275.39,3,1975-11-19
+73,The 5 AM Club,Robin Sharma,Self-Help,388.93,1,2013-01-14
+74,The Catcher in the Rye,J.D. Salinger,Fiction,337.08,35,1996-12-08
+75,SuperFreakonomics,Steven Levitt & Stephen Dubner,Science,435.18,50,2016-05-14
+76,Born a Crime,Trevor Noah,Non-fiction,415.08,3,2011-06-16
+77,Losing My Virginity,Richard Branson,Non-fiction,440.33,50,2018-07-07
+78,The No. 1 Ladies Detective Agency,Alexander McCall Smith,Mystery,345.93,5,2021-03-13
+79,Everything Is F*cked,Mark Manson,Self-Help,394.25,8,2015-09-04
+80,Five Point Someone,Chetan Bhagat,Fiction,221.17,5,1977-04-29
+81,Godan,Munshi Premchand,Fiction,289.89,5,1966-03-24
+82,Deep Work,Cal Newport,Self-Help,511.89,5,2008-10-10
+83,The Girl Who Played with Fire,Stieg Larsson,Mystery,450.27,20,2017-11-04
+84,The Woman in the Window,A.J. Finn,Mystery,403.34,50,1985-03-04
+85,The Selfish Gene,Richard Dawkins,Science,499.79,5,2006-01-16
+86,The Emperor of All Maladies,Siddhartha Mukherjee,Science,739.06,5,1984-11-11
+87,When Breath Becomes Air,Paul Kalanithi,Non-fiction,462.01,8,2015-04-11
+88,The Big Sleep,Raymond Chandler,Mystery,263.4,20,2005-11-18
+89,The Innovator's Dilemma,Clayton Christensen,Science,529.93,50,1988-07-11
+90,The Krishna Key,Ashwin Sanghi,Fiction,369.64,20,1980-01-28
+91,Return of a King,William Dalrymple,History,652.88,35,2010-10-23
+92,Einstein: His Life and Universe,Walter Isaacson,Non-fiction,745.01,20,2010-01-30
+93,1984,George Orwell,Fiction,253.64,12,1989-08-15
+94,The Maltese Falcon,Dashiell Hammett,Mystery,278.94,20,1971-03-07
+95,The Namesake,Jhumpa Lahiri,Fiction,403.99,8,1993-11-15
+96,The Secret of the Nagas,Amish Tripathi,Fiction,366.47,8,2011-04-11
+97,The Anarchy,William Dalrymple,History,656.15,3,1998-11-10
+98,The Da Vinci Code,Dan Brown,Fiction,471.22,8,2013-07-23
+99,Educated,Tara Westover,Non-fiction,559.3,20,1993-07-01
+100,Napoleon,Andrew Roberts,History,776.49,35,1993-08-18
+101,Digital Minimalism,Cal Newport,Self-Help,401.58,12,2006-01-06
+102,Awaken the Giant Within,Tony Robbins,Self-Help,566.57,8,1999-10-26
+103,A Promised Land,Barack Obama,Non-fiction,785.14,5,2001-03-23
+104,Sharp Objects,Gillian Flynn,Mystery,412.4,75,2013-01-04
+105,The Kite Runner,Khaled Hosseini,Fiction,359.46,2,2003-02-14
+106,Grit,Angela Duckworth,Self-Help,471.07,20,1984-03-10
+107,Think and Grow Rich,Napoleon Hill,Self-Help,272.79,35,1987-11-06
+108,Ikigai,Hector Garcia & Francesc Miralles,Self-Help,274.3,5,1962-03-11
+109,The Discovery of India,Jawaharlal Nehru,Non-fiction,344.68,100,2007-06-03
+110,Thinking Fast and Slow,Daniel Kahneman,Science,717.09,2,1998-08-04
+111,Hullabaloo in the Guava Orchard,Kiran Desai,Fiction,367.11,20,2012-03-22
+112,Atomic Habits,James Clear,Self-Help,528.39,12,1990-12-11
+113,Blink,Malcolm Gladwell,Science,383.64,20,2020-01-16
+114,The Shadow Lines,Amitav Ghosh,Fiction,375.28,35,1984-10-12
+115,The Double Helix,James D. Watson,Science,486.5,5,2016-01-26
+116,The Sign of the Four,Arthur Conan Doyle,Mystery,271.84,12,1964-07-03
+117,A Short History of Nearly Everything,Bill Bryson,Science,558.45,50,1985-06-11
+118,One Night at the Call Center,Chetan Bhagat,Fiction,196.4,35,2007-08-26
+119,Being Mortal,Atul Gawande,Science,572.04,20,2022-08-13
+120,City of Djinns,William Dalrymple,History,537.21,12,2016-07-23
+121,Eleven Minutes,Paulo Coelho,Fiction,297.35,12,2009-02-24
+122,Eat Pray Love,Elizabeth Gilbert,Fiction,372.85,3,2018-08-23
+123,Drive,Daniel H. Pink,Self-Help,425.74,5,1991-02-02
+124,Veronika Decides to Die,Paulo Coelho,Fiction,296.43,5,2006-10-07
+125,Playing It My Way,Sachin Tendulkar,Non-fiction,596.23,5,1999-09-24
+126,Silent Spring,Rachel Carson,Science,348.42,5,1992-03-09
+127,Smarter Faster Better,Charles Duhigg,Self-Help,407.87,50,1983-08-13
+128,A Study in Scarlet,Arthur Conan Doyle,Mystery,204.16,5,1973-09-16
+129,A New Earth,Eckhart Tolle,Self-Help,391.85,2,1998-04-14
+130,The Rozabal Line,Ashwin Sanghi,Fiction,331.29,12,1982-10-17
+131,Guns Germs and Steel,Jared Diamond,History,591.92,12,2020-08-02
+132,Big Little Lies,Liane Moriarty,Mystery,431.29,75,1980-11-16
+133,The Lean Startup,Eric Ries,Science,552.4,35,1997-01-23
+134,Sense and Sensibility,Jane Austen,Fiction,227.42,75,1986-10-15
+135,Who Moved My Cheese,Spencer Johnson,Self-Help,214.13,35,1997-08-04
+136,Raag Darbari,Shrilal Shukla,Fiction,353.0,20,2015-11-18
+137,A Thousand Splendid Suns,Khaled Hosseini,Fiction,411.36,5,1989-11-04
+138,My Experiments with Truth,Mahatma Gandhi,Non-fiction,232.04,12,1994-11-20
+139,Outliers,Malcolm Gladwell,Science,426.93,20,1998-02-19
+140,The Inheritance of Loss,Kiran Desai,Fiction,425.83,35,2021-03-31
+141,An Era of Darkness,Shashi Tharoor,Non-fiction,443.26,20,1981-03-17
+142,Scion of Ikshvaku,Amish Tripathi,Fiction,369.16,20,2009-09-27
+143,Tools of Titans,Tim Ferriss,Self-Help,599.83,20,1986-02-01
+144,The Glass Castle,Jeannette Walls,Non-fiction,476.21,3,1991-09-02
+145,"English, August",Upamanyu Chatterjee,Fiction,288.16,5,1989-04-28
+146,21 Lessons for the 21st Century,Yuval Noah Harari,Science,522.24,50,1992-06-24
+147,What Do You Care What Other People Think,Richard Feynman,Science,482.95,35,1991-04-26
+148,Ignited Minds,A.P.J. Abdul Kalam,Non-fiction,218.99,12,2008-05-23
+149,Family Matters,Rohinton Mistry,Fiction,362.7,75,1990-01-21
+150,Inglorious Empire,Shashi Tharoor,Non-fiction,469.22,35,2009-03-27
+151,SPQR: A History of Ancient Rome,Mary Beard,History,516.38,1,1991-02-03
+152,Freedom at Midnight,Larry Collins & Dominique Lapierre,History,453.99,1,1986-11-01
+153,The Checklist Manifesto,Atul Gawande,Science,413.78,12,1985-02-17
+154,The Great Partition,Yasmin Khan,History,559.54,5,2011-05-18
+155,The Girl on the Train,Paula Hawkins,Fiction,369.82,8,2007-03-06
+156,The Dublin Murder Squad,Tana French,Mystery,442.8,35,1985-02-19
+157,Surely You're Joking Mr. Feynman,Richard Feynman,Science,540.59,3,1993-12-14
+158,White Mughals,William Dalrymple,History,528.58,1,1993-12-29
+159,Gone Girl,Gillian Flynn,Fiction,438.76,50,1996-11-01
+160,A Fine Balance,Rohinton Mistry,Fiction,435.08,20,1983-05-30
+161,Antifragile,Nassim Nicholas Taleb,Science,718.31,35,1990-11-22
+162,Murder on the Orient Express,Agatha Christie,Mystery,263.29,35,2013-11-12
+163,Man's Search for Meaning,Viktor Frankl,Non-fiction,326.41,35,2010-10-09
+164,The Great Gatsby,F. Scott Fitzgerald,Fiction,302.66,8,1998-06-07
+165,The Test of My Life,Yuvraj Singh,Non-fiction,418.33,2,2009-01-17
+166,Empire of the Moghul,Alex Rutherford,History,522.85,35,2016-11-20
+167,Nine Perfect Strangers,Liane Moriarty,Mystery,417.77,12,1996-03-31
+168,To Kill a Mockingbird,Harper Lee,Fiction,363.2,35,2011-09-23
+169,The Monk Who Sold His Ferrari,Robin Sharma,Self-Help,267.87,3,2006-10-22
+170,Caesar,Adrian Goldsworthy,History,625.66,5,2016-04-02
+171,The Hound of the Baskervilles,Arthur Conan Doyle,Mystery,280.35,35,2001-09-14
+172,Mindset,Carol S. Dweck,Self-Help,440.32,20,1992-01-15
+173,Jane Eyre,Charlotte Bronte,Fiction,254.66,5,1967-10-10
+174,Of Mice and Men,John Steinbeck,Fiction,232.49,12,2001-09-09
+175,Such a Long Journey,Rohinton Mistry,Fiction,407.36,20,1995-02-02
+176,The Palace of Illusions,Chitra Banerjee Divakaruni,Fiction,342.59,35,1988-02-27
+177,A Suitable Boy,Vikram Seth,Fiction,696.39,8,1991-08-03
+178,Straight Drive,Sourav Ganguly,Non-fiction,427.49,50,2011-06-15
+179,And Then There Were None,Agatha Christie,Mystery,310.81,12,2006-05-07
+180,The Space Between Us,Thrity Umrigar,Fiction,429.94,2,2012-04-19
+181,Leaders Eat Last,Simon Sinek,Self-Help,416.96,12,1990-10-12
+182,The Silk Roads,Peter Frankopan,History,738.97,20,2002-01-06
+183,Chanakya's Chant,Ashwin Sanghi,Fiction,373.11,0,1993-03-13
+184,The 3 Mistakes of My Life,Chetan Bhagat,Fiction,182.38,20,1987-06-21
+185,Pride and Prejudice,Jane Austen,Fiction,261.25,8,2009-08-27
+186,Cosmos,Carl Sagan,Science,604.56,12,2013-06-17
+187,The Black Swan,Nassim Nicholas Taleb,Science,658.81,8,2000-05-09
+188,Interpreter of Maladies,Jhumpa Lahiri,Fiction,325.01,5,1985-05-30
+189,Immortals of Meluha,Amish Tripathi,Fiction,372.17,8,2013-04-28
+190,The Girl Who Kicked the Hornet's Nest,Stieg Larsson,Mystery,453.83,35,1988-04-21
