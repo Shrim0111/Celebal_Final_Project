@@ -142,7 +142,7 @@ Every KPI view returns the same shape of output: current value, target value, PA
 
 **How each one works, in simple words:**
 
-- **Revenue Growth** — Add up delivered order revenue for each month, then compare it with the previous month using the `LAG()` window function to get the % change.
+- **Revenue Growth** — Add up delivered order revenue for each month, then compare it with the previous month using the `LAG()` window function to get the MoM % change. The view `gold_kpi_revenue_growth` provides the monthly tracking indicators, while the overall business target ("≥ 5% in any 3 consecutive months") is verified via `gold_kpi_revenue_growth_target_check` using an islands-and-gaps pattern across consecutive PASS months.
 - **Retention Rate** — Find which customers ordered in month X, then check if the same customer also ordered in month X+1 (self join on customer + next month).
 - **Sell-Through** — Count how many distinct books had at least 1 delivered order, divide by the total number of books.
 - **Return Compliance** — Count how many loans were returned on or before the due date, divide by total loans.

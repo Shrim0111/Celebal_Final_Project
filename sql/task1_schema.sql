@@ -1,6 +1,6 @@
 create database celebal;
-use celebal;
 
+use celebal;
 
 -- create a metadata pipline
 CREATE TABLE pipeline_metadata (
@@ -111,6 +111,13 @@ CREATE TABLE silver_rejected_rows (
 
 
 CREATE VIEW gold_kpi_revenue_growth AS
+SELECT NULL AS kpi_period,
+       NULL AS kpi_value,
+       NULL AS kpi_target,
+       NULL AS status,
+       NULL AS calculated_at;
+
+CREATE VIEW gold_kpi_revenue_growth_target_check AS
 SELECT NULL AS kpi_value,
        NULL AS kpi_target,
        NULL AS status,

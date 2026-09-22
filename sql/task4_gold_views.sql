@@ -1,5 +1,5 @@
 -- 1. monthly revenue growth (MoM % change on DELIVERED orders)
--- target: >= 5% in any 3 consecutive months
+-- monthly tracking indicator against the 5% threshold
 CREATE OR REPLACE VIEW gold_kpi_revenue_growth AS
 WITH monthly AS (
     SELECT DATE_FORMAT(order_date, '%Y-%m') AS kpi_period, SUM(order_value) AS revenue
@@ -25,6 +25,32 @@ SELECT
 FROM growth
 WHERE prev_revenue IS NOT NULL
 ORDER BY kpi_period;
+
+
+-- 1b. business target check: >= 5% growth in any 3 consecutive months
+-- uses islands-and-gaps pattern to identify streaks of consecutive PASS months
+CREATE OR REPLACE VIEW gold_kpi_revenue_growth_target_check AS
+WITH monthly_status AS (
+    SELECT kpi_period, status,
+           ROW_NUMBER() OVER (ORDER BY kpi_period) 
+           - ROW_NUMBER() OVER (PARTITION BY status ORDER BY kpi_period) AS grp
+    FROM gold_kpi_revenue_growth
+),
+streaks AS (
+    SELECT grp,
+           MIN(kpi_period) AS streak_start,
+           MAX(kpi_period) AS streak_end,
+           COUNT(*) AS consecutive_pass_months
+    FROM monthly_status
+    WHERE status = 'PASS'
+    GROUP BY grp
+)
+SELECT
+    COALESCE(MAX(consecutive_pass_months), 0) AS kpi_value,
+    3 AS kpi_target,
+    CASE WHEN COALESCE(MAX(consecutive_pass_months), 0) >= 3 THEN 'PASS' ELSE 'FAIL' END AS status,
+    NOW() AS calculated_at
+FROM streaks;
 
 -------------------------------------------------------------------------------------------------------
 
@@ -164,3 +190,6 @@ SELECT
     END AS customer_segment
 FROM silver_customers c
 LEFT JOIN spend s ON s.customer_id = c.customer_id;
+
+
+

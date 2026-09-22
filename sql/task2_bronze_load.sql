@@ -24,8 +24,10 @@ WHERE s.joined_on > @last_load_customers
 AND NOT EXISTS (SELECT 1 FROM bronze_customers b WHERE b.customer_id = s.customer_id);
 
 SET @rows_loaded = ROW_COUNT();
+SET @max_loaded_date = (SELECT MAX(joined_on) FROM bronze_customers);
+
 UPDATE pipeline_metadata
-SET last_loaded_at = NOW(), rows_loaded =@rows_loaded, status = 'SUCCESS'
+SET last_loaded_at = @max_loaded_date, rows_loaded = @rows_loaded, status = 'SUCCESS'
 WHERE table_name = 'bronze_customers';
 COMMIT;
 
@@ -42,8 +44,10 @@ WHERE s.order_date > @last_load_orders
 AND NOT EXISTS (SELECT 1 FROM bronze_orders b WHERE b.order_id = s.order_id);
 
 SET @rows_loaded = ROW_COUNT();
+SET @max_loaded_date = (SELECT MAX(order_date) FROM bronze_orders);
+
 UPDATE pipeline_metadata
-SET last_loaded_at = NOW(), rows_loaded = @rows_loaded, status = 'SUCCESS'
+SET last_loaded_at = @max_loaded_date, rows_loaded = @rows_loaded, status = 'SUCCESS'
 WHERE table_name = 'bronze_orders';
 COMMIT;
 
@@ -61,8 +65,10 @@ WHERE s.loan_date > @last_load_loans
 AND NOT EXISTS (SELECT 1 FROM bronze_loans b WHERE b.loan_id = s.loan_id);
 
 SET @rows_loaded = ROW_COUNT();
+SET @max_loaded_date = (SELECT MAX(loan_date) FROM bronze_loans);
+
 UPDATE pipeline_metadata
-SET last_loaded_at = NOW(), rows_loaded = @rows_loaded, status = 'SUCCESS'
+SET last_loaded_at = @max_loaded_date, rows_loaded = @rows_loaded, status = 'SUCCESS'
 WHERE table_name = 'bronze_loans';
 COMMIT;
 
@@ -79,8 +85,10 @@ WHERE s.created_at > @last_load_reviews
 AND NOT EXISTS (SELECT 1 FROM bronze_reviews b WHERE b.review_id = s.review_id);
 
 SET @rows_loaded = ROW_COUNT();
+SET @max_loaded_date = (SELECT MAX(created_at) FROM bronze_reviews);
+
 UPDATE pipeline_metadata
-SET last_loaded_at = NOW(), rows_loaded = @rows_loaded, status = 'SUCCESS'
+SET last_loaded_at = @max_loaded_date, rows_loaded = @rows_loaded, status = 'SUCCESS'
 WHERE table_name = 'bronze_reviews';
 COMMIT;
 
